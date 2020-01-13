@@ -39,23 +39,27 @@ Running
 
 Simply start radeontop and it auto-selects the first supported GPU:
 
-    ./radeontop
+    radeontop
 
 
 Running radeontop on a bus 0f:
 
-    ./radeontop -b 0f
+    radeontop -b 0f
 
 
 Writing values to stdout instead of showing a GUI:
 
-    ./radeontop -d -
+    radeontop -d -
 
 
 Getting all options:
 
-    ./radeontop --help
+    radeontop --help
 
+Installing
+----------
+
+    sudo make install
 
 Building
 --------
